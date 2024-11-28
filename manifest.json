@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Open in Google Maps",
+    "version": "1.0",
+    "permissions": ["contextMenus", "activeTab"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
